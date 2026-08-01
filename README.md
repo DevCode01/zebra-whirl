@@ -1,17 +1,30 @@
 # Zebra Whirl
 
-**CLI** · **Zig**
+**Zig** · **v0.1.0**
 
-_Real-time system resource monitor for the terminal_
+_FizzBuzz implementation with configurable range_
 
-## Usage
+---
+
+## Features
+
+- Correct Fizz/Buzz/FizzBuzz logic
+- Range from command line argument
+- Zero external dependencies
+
+## Installation
 
 ```bash
 git clone https://github.com/DevCode01/zebra-whirl.git
 cd zebra-whirl
 ```
 
-## About
+## Usage
 
-Part of the **Daily Random Project** series.
-*Generated on 2026-07-07*
+```bash
+zig build run -- 50
+```
+
+## License
+
+MIT
